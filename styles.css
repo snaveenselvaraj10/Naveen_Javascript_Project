@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label, form select, form button {
+    margin: 10px 0;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+#results .destination {
+    border: 1px solid #ccc;
+    padding: 4em;
+    width: calc(33% - 8em);
+}
+
+#results .destination img {
+    width: auto;
+    height: auto;
+}
+
+#results .destination a {
+    color: blue;
+    text-decoration: none;
+}

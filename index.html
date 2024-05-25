@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Recommendation Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to Your Travel Planner</h2>
+        <p>Discover ideal destinations based on your preferences.</p>
+    </section>
+    <section id="preferences">
+        <h2>Tell us your preferences</h2>
+        <form id="preferencesForm">
+            <label for="budget">Budget:</label>
+            <select id="budget">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <label for="weather">Preferred Weather:</label>
+            <select id="weather">
+                <option value="sunny">Sunny</option>
+                <option value="snowy">Snowy</option>
+                <option value="rainy">Rainy</option>
+            </select>
+            <label for="activities">Favorite Activities:</label>
+            <select id="activities">
+                <option value="beach">Beach</option>
+                <option value="hiking">Hiking</option>
+                <option value="city">City Tours</option>
+            </select>
+            <button type="submit">Get Recommendations</button>
+        </form>
+    </section>
+    <section id="recommendations">
+        <h2>Recommended Destinations</h2>
+        <div id="results"></div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Travel Recommendation Website</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
